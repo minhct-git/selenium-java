@@ -1,0 +1,42 @@
+<suite name="the internet page">
+
+    <test name="login">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="findElement.LoginTest"/>
+        </classes>
+    </test>
+    <!--    <test name="">-->
+    <!--        <parameter name="browserName" value="firefox"/>-->
+    <!--        <classes>-->
+    <!--            <class name="testcases.LoginTest"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <test name="checkbox">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="findElement.CheckboxTest"/>
+        </classes>
+    </test>
+    <test name="basic auth">-->
+        <parameter name="browserName" value="chrome"/>-->
+        <classes>-->
+            <class name="findElement.BasicAuthenticationTest"/>-->
+        </classes>-->
+    </test>
+
+    <test name="dropdown">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="findElement.DropdownTest"/>
+        </classes>
+    </test>
+
+    <test name="hyperlink">
+        <parameter name="browserName" value="chrome"/>
+        <classes>
+            <class name="findElement.HyperlinkTest"/>
+        </classes>
+    </test>
+</suite>
